@@ -1,0 +1,1 @@
+PR link : https://github.com/Aseelalsaqer/django-crud/pull/1
