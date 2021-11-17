@@ -5,7 +5,7 @@
 <ul>
   {% for snack in snack_list %}
   
-    <li><a href="{{ snack_detail.get_absolute_url }}">{{ snack}}</a></li>
+  <a href="{% url 'snack_detail' snack.pk %}">{{snack.title}}</a>
     
   {% endfor %}
 </ul>

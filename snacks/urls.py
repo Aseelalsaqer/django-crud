@@ -8,3 +8,4 @@ urlpatterns = [
     path('<int:pk>/update/', SnackUpdateView.as_view(), name='snack_update'),
     path('<int:pk>/delete/', SnackDeleteView.as_view(), name='snack_delete')
 ]
+ 
